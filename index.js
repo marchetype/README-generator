@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
+const inquirer = require('inquirer');
 
 function Section(title, prompt, userInput) {
     this.title = title;
@@ -13,14 +14,17 @@ const usage = new Section('Usage', 'Please enter usage information about your ap
 const contribution = new Section('Contribution Guidelines', 'Please enter the guidelines for conribution to the project:', '');
 const testing = new Section('Test Instructions', 'Please enter instructions for testing:', '');
 // TODO: Create an array of questions for user input
-const questions = [description, install, usage, contribution, testing];
+const stringInputQuestions = [description, install, usage, contribution, testing];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    cycleThroughQuestions(stringInputQuestions);
+
+}
 
 // Function call to initialize app
 init();
