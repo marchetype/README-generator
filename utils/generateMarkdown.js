@@ -2,10 +2,6 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let badge = `https://img.shields.io/badge/License-${license}-green.svg`;
-
-  if (license === null) {
-    badge = '';
-  }
   return badge;
 }
 
@@ -41,15 +37,18 @@ function generateMarkdown(data) {
   - [Testing](#testing)
   
   ## Description
-  ${data.description}
+  - ${data.description}
   ## Installation
-  ${data.installation}
+  - ${data.installation}
   ## Usage
-  ${data.usage}
+  - ${data.usage}
   ## Contribution
-  ${data.contribution_guidelines}
+  - ${data.contribution_guidelines}
   ## Testing
-  ${data.testing}
+  - ${data.testing}
+  ### GitHub Username
+  - ${data.github}
+
 `;
 }
 
