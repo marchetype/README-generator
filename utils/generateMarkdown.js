@@ -34,8 +34,22 @@ function generateMarkdown(data) {
   return `## README
   # ${data.title} / ${data.dev_name}
   ## ${licenseSection}
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
   
-
+  ## Description
+  ${data.description}
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## Contribution
+  ${data.contribution_guidelines}
+  ## Testing
+  ${data.testing}
 `;
 }
 
