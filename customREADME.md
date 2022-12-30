@@ -1,6 +1,6 @@
 ## README
-  # m / m
-  ## [![License](https://img.shields.io/badge/License--green.svg)](https://opensource.org/licenses/)
+  # I'm A Genius / Mark Barstow
+  ## [![License](https://img.shields.io/badge/License-BSD_3--Clause-purple.svg)](https://opensource.org/licenses/BSD_3--Clause)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -8,15 +8,15 @@
   - [Testing](#testing)
   
   ## Description
-  - m
+  - sfbasbhfasflkjadsbnflkjsdblvkfdjnb
   ## Installation
-  - m
+  - dfbdskbuf
   ## Usage
-  - m
+  - khdkhfdkybf
   ## Contribution
-  - m
+  - dsbksjhbfkjsdnf
   ## Testing
-  - m
+  - icudbciusbdicubsvuyfbdsuayfba
   ### GitHub Username
-  - m
+  - mkm
 

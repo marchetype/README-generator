@@ -46,6 +46,12 @@ const questions = [
         choices: ['Apache_2.0', 'Boost_1.0', 'BSD_3--Clause', 'BSD_2--Clause', 'EPL_1.0', 'GPLv3', 'CC0-1.0', 'EPL_1.0', 'GPLv3','MIT', 'Unlicense']
     },
     {
+        type: 'checkbox',
+        message: 'What color would you like your license badge to be?',
+        name: 'color',
+        choices: ['red','orange','yellow','green','blue','pink','purple','white','black','teal','coral']
+    },
+    {
         type: 'input',
         message: 'Finally, what is your GitHub username?',
         name: 'github'
